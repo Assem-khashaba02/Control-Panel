@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background: #001;
+    display: flex;
+}
+.profile{
+    display:block ;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    transition: 0.5s;
+   
+}
+img{
+    cursor: pointer;
+}
+.i{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid white;
+    
+}
+.m{
+    background: #123;
+    width: 55px;
+    height: 100vh;
+    padding: 20px;
+    overflow: hidden;
+}
+.m:hover{
+    width: 260px;
+    transition: 0.9s;
+}
+ul{
+    list-style: none;
+    position: relative;
+    height: 95%;
+}
+ul li a{
+    display:block ;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    transition: 0.5s;
+
+}
+ul li a:hover , .f ,.data-info .bix:hover ,td:hover{
+    background-color: #ffffff55;
+}
+.log-out{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+    
+}
+.log-out a{
+    background:#A00 ;
+}
+ul li a i{
+    font-size: 30px;
+}
+.cont{
+    width: 100%;
+    margin: 10px;
+}
+.titel-info{
+    background-color: #0481ff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+.data-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.data-info .bix{
+    background-color: #123;
+    height: 150PX;
+    flex-basis: 150PX;
+    flex-grow: 1;
+    border-radius: 8PX;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.data-info .bix i{
+    font-size: 40px;
+}
+.data-info .bix .data{
+    text-align: center;
+}
+.data-info .bix .data span{
+    font-size: 30px;
+}
+table{
+    width: 100%;
+    text-align: center;
+    border-spacing:8px ;
+
+}
+td ,th{
+    background-color: #123;
+    height: 40px;
+    border-radius: 8px;
+
+}
+th{
+    background-color: #0080ff;
+}
+.price , .cou {
+    padding: 6px;
+    border-radius: 6px;
+}
+.price{
+    background-color: green;
+
+}
+.cou{
+background-color: 
+gold;
+color: #001;
+}
